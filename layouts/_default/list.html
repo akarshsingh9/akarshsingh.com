@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div>   
+    <ul>
+        {{ $paginator := .Paginate .Data.Pages }}
+        {{ range $paginator.Pages }}
+        {{ .Render "post" }}
+        {{ end }}
+    </ul>
+</div>
+<div>
+    {{ partial "pagination.html" . }}
+</div>    
+    
+{{ end }}
