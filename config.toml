@@ -1,8 +1,10 @@
 # default configuration
-baseURL = "http://example.org/"
+baseURL = "http://akarshsingh.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-paginate = 2
+title = "Akarsh Singh"
+paginate = 10
+enableRobotsTXT = true
+canonifyURLs = true
 
 # menu
 [[menu.main]]
@@ -16,33 +18,30 @@ name = "Blogs"
 weight = 3
 
 [[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
+URL = "projects"
+name = "Projects"
 weight = 4
 
 
 # default parameters
 [params]
 author = "Akarsh Singh"
-description = "This is meta description"
+og_image = ""
+sitename = "Akarsh Singh"
 
 # social site
 [[params.social]]
-URL = "#"
+URL = "https://github.com/akarshsingh9/"
+title = "GitHub"
+icon = "ti-github"
+
+[[params.social]]
+URL = "https://twitter.com/akarsh_singh9"
+title = "Twitter"
+icon = "ti-twitter-alt"
+
+[[params.social]]
+URL = "https://www.facebook.com/codeinpython/"
 title = "Facebook"
 icon = "ti-facebook"
 
-[[params.social]]
-URL = "#"
-title = "Instagram"
-icon = "ti-instagram"
-
-[[params.social]]
-URL = "#"
-title = "Dribbble"
-icon = "ti-dribbble"
-
-[[params.social]]
-URL = "#"
-title = "Twitter"
-icon = "ti-twitter-alt"
