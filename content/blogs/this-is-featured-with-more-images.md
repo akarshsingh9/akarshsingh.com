@@ -27,6 +27,7 @@ Programming in layman terms is a process of writing computer programs to make yo
 Today we live in a digital age where we are see machines and devices everyday. Smartphones, Social media, YouTube, etc. have changed our lives. As of today, everything we used to do manually now has an App or computer software to automate it. For every other outdoor work, there is an App that simplifies our job. We are now witnessing the rise of self-driving cars, virtual reality, augmented reality, electric sports cars and what not. These things which were nothing more than human imagination has now turned into a reality. Try to guess how we were able to accomplish this? Yes, the answer is right in front of your eyes, it is by means of programming.
 
 Programming has the power to change the world. Programmers of today are the wizards of tomorrow. I believe, whatever you intend to create; your next invention is just a code away. Well since now you know the power of programming you must be excited to begin your programming journey.
+
 {{< figure src="/images/python2.png" title="Python logo" >}}
 
 ## Is programming hard to learn?
