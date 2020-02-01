@@ -1,11 +1,10 @@
 {{ define "main" }}
 <div>   
     <ul>
-        {{ $paginator := .Paginate .Data.Pages }}
-        {{ range $paginator.Pages }}
+        {{ range .Pages }}
         {{ .Render "post" }}
         {{ end }}
     </ul>
-</div>  
+</div>
     
 {{ end }}
