@@ -2,25 +2,46 @@
 baseURL = "http://akarshsingh.com/"
 languageCode = "en-us"
 title = "Akarsh Singh"
-paginate = 10
 enableRobotsTXT = true
 canonifyURLs = true
 
+[taxonomies]
+tag = "tags"
+
+
+
 # menu
-[[menu.main]]
-URL = "about"
-name = "About"
-weight = 2
+[menu]
 
-[[menu.main]]
-URL = "blogs"
-name = "Blogs"
-weight = 3
+  [[menu.nav]]
+  name = "Home"
+  pre = "home"
+  url = "/"
+  weight = 1.0
 
-[[menu.main]]
-URL = "projects"
-name = "Projects"
-weight = 4
+  [[menu.nav]]
+  name = "Blog"
+  pre = "edit"
+  url = "/post/"
+  weight = 2.0
+
+  [[menu.nav]]
+  name = "Tags"
+  pre = "tag"
+  url = "/tags/"
+  weight = 3.0
+
+  [[menu.nav]]
+  name = "About"
+  pre = "smile"
+  url = "/about/"
+  weight = 4.0
+
+  [[menu.nav]]
+  name = "RSS"
+  pre = "rss"
+  url = "/index.xml"
+  weight = 5.0
 
 
 # default parameters
@@ -28,6 +49,13 @@ weight = 4
 author = "Akarsh Singh"
 og_image = ""
 sitename = "Akarsh Singh"
+includeBootstrapJs = false
+showActiveNav = true
+containerMaxWidth = "700px"
+dateFormat = "Jan 2, 2006"
+homeText = "Welcome to the Vanilla theme demo. Have a look around. Maybe even eat some ice cream."
+footerText = "Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)"
+hideFooter = false
 
 # social site
 [[params.social]]
@@ -44,4 +72,3 @@ icon = "ti-twitter-alt"
 URL = "https://www.facebook.com/codeinpython/"
 title = "Facebook"
 icon = "ti-facebook"
-

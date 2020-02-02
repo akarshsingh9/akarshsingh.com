@@ -1,10 +1,7 @@
-<footer>
-    <div class="social-links">
-       
-      <h4 >Social Contacts</h4>        
-      {{ range .Site.Params.social }}
-        <a href="{{ .URL | safeURL }}">{{ .title }}</a>
-      {{ end }}
-        
-    </div>
+{{ if ne .Site.Params.hideFooter true }}
+<footer id="footer" class="mt-auto text-center text-muted">
+  <div class="container">
+    {{ .Site.Params.footerText | markdownify }}
+  </div>
 </footer>
+{{ end }}
