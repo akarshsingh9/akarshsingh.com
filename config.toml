@@ -8,40 +8,27 @@ canonifyURLs = true
 [taxonomies]
 tag = "tags"
 
-
-
 # menu
 [menu]
-
   [[menu.nav]]
-  name = "Home"
-  pre = "home"
-  url = "/"
+  name = "Blog"
+  url = "/post/"
   weight = 1.0
 
   [[menu.nav]]
-  name = "Blog"
-  pre = "edit"
-  url = "/post/"
+  name = "Projects"
+  url = "/project/"
   weight = 2.0
 
   [[menu.nav]]
-  name = "Tags"
-  pre = "tag"
-  url = "/tags/"
+  name = "About"
+  url = "/about/"
   weight = 3.0
 
   [[menu.nav]]
-  name = "About"
-  pre = "smile"
-  url = "/about/"
-  weight = 4.0
-
-  [[menu.nav]]
   name = "RSS"
-  pre = "rss"
   url = "/index.xml"
-  weight = 5.0
+  weight = 4.0
 
 
 # default parameters
@@ -49,13 +36,9 @@ tag = "tags"
 author = "Akarsh Singh"
 og_image = ""
 sitename = "Akarsh Singh"
-includeBootstrapJs = false
 showActiveNav = true
-containerMaxWidth = "700px"
 dateFormat = "Jan 2, 2006"
-homeText = "Welcome to the Vanilla theme demo. Have a look around. Maybe even eat some ice cream."
-footerText = "Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)"
-hideFooter = false
+footerText = "Follow me on: "
 
 # social site
 [[params.social]]

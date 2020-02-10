@@ -1,16 +1,17 @@
 <!doctype html>
 {{ $lang := .Site.Language.Lang | default "en" }}
-<html lang="{{ $lang }}" class="h-100">
+<html lang="{{ $lang }}">
   {{ partial "head.html" . }}
-  <body class="d-flex flex-column h-100">
-    {{ partial "nav.html" . }}
+  <body>
     <div class="container">
-      <main id="main">
+    {{ partial "nav.html" . }}
+    
+      <main id="level">
         {{ block "main" . }}{{ end }}
       </main>
-    </div>
     {{ partial "footer.html" . }}
     {{ partial "script.html" . }}
     {{ partial "google-analytics-async.html" . }}
+  </div>
   </body>
 </html>

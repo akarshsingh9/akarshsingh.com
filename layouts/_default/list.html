@@ -1,13 +1,28 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-
-{{ range .Pages.ByPublishDate.Reverse }}
-<p>
-  <a class="font-125" href="{{ .Permalink }}">{{ .Title }}</a>
-  <br>
-  {{ partial "date-and-tags.html" . }}
-</p>
-{{ end }}
-
+<section class="section">
+  <p class="title is-4">Articles</p>  
+  <nav class="breadcrumb" aria-label="breadcrumbs">
+    <ul>
+      <li><a href="\">Home</a></li>
+      <li class="is-active"><a href="#" aria-current="page">{{ .Title }}</a></li>
+    </ul>
+  </nav>
+  
+  {{ range .Pages.ByPublishDate.Reverse }}
+  <div class="box">
+    <article class="media">
+      <div class="media-left">
+        <figure class="image is-64x64">
+          <img class="is-rounded" src="{{ with .Params.image }}{{ . }}{{ end }}">
+        </figure>
+      </div>
+      <div class="media-content">
+      <p class="title is-5"><a class="" href="{{ .Permalink }}">{{ .Title }}</a></p>
+      <p class = "subtitle is-6">{{ partial "date-and-tags.html" . }}</p>
+    </div>
+    </article>
+  </div>
+  {{ end }}
+</section>
 {{ end }}

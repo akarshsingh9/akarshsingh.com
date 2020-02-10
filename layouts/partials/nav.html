@@ -1,22 +1,31 @@
-<div id="nav-border" class="container">
-  <nav id="nav" class="nav justify-content-center">
-  {{ $showActiveNav := .Site.Params.showActiveNav }}
-  {{ $currentPage := . }}
-  {{ range .Site.Menus.nav }}
-    {{ $active := "" }}
-    {{ if eq $showActiveNav true }}
-      {{ $isMenu := or ($currentPage.IsMenuCurrent "nav" .) ($currentPage.HasMenuCurrent "nav" .) }}
-      {{ $isMenu = or $isMenu (eq $currentPage.Params.identifier .Identifier) }}
-      {{ $isMenu = or $isMenu (eq $currentPage.Title .Name) }}
-      {{ $isMenu = or $isMenu (and (eq .Name "Blog") (eq $currentPage.Section "post")) }}
-      {{ $isMenu = or $isMenu (and (eq .Name "Tags") (eq $currentPage.Section "tags")) }}
-      {{ if $isMenu }} 
-        {{ $active = "nav-link-active" }}
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  
+  <div class="navbar-menu" id="navMenu">
+    <div class="navbar-start"><a class ="navbar-item" href="\">Akarsh Singh</a></div>
+    <div class="navbar-end">
+    {{ $showActiveNav := .Site.Params.showActiveNav }}
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.nav }}
+      {{ $active := "" }}
+      {{ if eq $showActiveNav true }}
+        {{ $isMenu := or ($currentPage.IsMenuCurrent "nav" .) ($currentPage.HasMenuCurrent "nav" .) }}
+        {{ $isMenu = or $isMenu (eq $currentPage.Params.identifier .Identifier) }}
+        {{ $isMenu = or $isMenu (eq $currentPage.Title .Name) }}
+        {{ $isMenu = or $isMenu (and (eq .Name "Blog") (eq $currentPage.Section "post")) }}
+        {{ $isMenu = or $isMenu (and (eq .Name "Projects") (eq $currentPage.Section "project")) }}
+        {{ if $isMenu }} 
+          {{ $active = "is-active" }}
+        {{ end }}  
       {{ end }}  
+      {{ $text := print .Name | safeHTML }}
+      <a class="navbar-item {{ $active }}" href="{{ .URL }}">{{ $text }}</a>
     {{ end }}  
-    {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
-    {{ $text := print $icon " " .Name | safeHTML }}
-    <a class="nav-link {{ $active }}" href="{{ .URL }}">{{ $text }}</a>
-  {{ end }}
-  </nav>
-</div>
+  </div>
+  </div>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+  </a>
+
+</nav>

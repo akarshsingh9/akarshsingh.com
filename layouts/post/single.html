@@ -1,8 +1,7 @@
 {{ define "main" }}
-
-<h1>{{ .Title }}</h1>
-{{ partial "date-and-tags.html" . }}
-<br><br>
+<section class="section">
+<p class="title is-4">{{ .Title }}</p>
+<p class="subtitle is-6"> {{ partial "date-and-tags.html" . }}</p>
 {{ .Content }}
-
+</section>
 {{ end }}
