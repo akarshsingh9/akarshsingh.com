@@ -23,14 +23,16 @@
     </article>  
   </div>
 </div>
+
+{{ $pages := where site.RegularPages "Type" "in" "post" }}
 <section class="section">
   <p class="title">Top blog posts</p>
-  {{ range first 5 .Pages }}
+  {{ range first 5 $pages }}
   <p>
     <a class="" href="{{ .Permalink }}">{{ .Title }}</a>
     <br>
     {{ partial "date-and-tags.html" . }}
-  </p>
+  </p><br>
   {{ end }}
 </section>
 
