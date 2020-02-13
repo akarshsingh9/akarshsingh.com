@@ -26,14 +26,24 @@
 
 {{ $pages := where site.RegularPages "Type" "in" "post" }}
 <section class="section">
-  <p class="title">Top blog posts</p>
+  <p class="title">Latest blog posts</p>
   {{ range first 5 $pages }}
-  <p>
-    <a class="" href="{{ .Permalink }}">{{ .Title }}</a>
-    <br>
-    {{ partial "date-and-tags.html" . }}
-  </p><br>
+    <article class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img class="is-rounded" src="{{ with .Params.image }}{{ . }}{{ end }}">
+        </figure>
+      </div>
+      <div class="media-content">
+      <p class="title is-5"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+      <p class = "subtitle is-6">{{ partial "date-and-tags.html" . }}</p>
+    </div>
+    </article>
   {{ end }}
 </section>
+
+<figure class="image">
+  <img src="http://ghchart.rshah.org/akarshsingh9" alt="Github Contribution Graph" />
+</figure>
 
 {{ end }}
