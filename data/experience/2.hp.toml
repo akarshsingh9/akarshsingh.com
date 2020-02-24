@@ -1,0 +1,9 @@
+designation = "Project Trainee"
+name = "Hindustan Petroleum Corp. Ltd."
+location = "Mumbai"
+time = "June 2018"
+image = "https://bulma.io/images/placeholders/128x128.png"
+description = [
+    "Developed an Android Application from scratch. Helps to create a tour itinerary for officers."
+    ,"Developed a JSON API using JSP which will get and post details from HPCL web portal."
+    ]

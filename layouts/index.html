@@ -42,8 +42,54 @@
   {{ end }}
 </section>
 
+<section class="section">
+<p class = "title">GitHub Contribution</p>
 <figure class="image">
   <img src="http://ghchart.rshah.org/akarshsingh9" alt="Github Contribution Graph" />
 </figure>
+</section>
+
+<section class="section">
+  <p class="title">Projects</p>
+  {{ range .Site.Data.top5proj }}
+  <article class="media">
+    <div class="media-content">
+      <strong><a href="{{ .link }}">{{ .name }}</a></strong><br>
+      <span class="tag is-light">{{ .type }}</span><br>
+      <p class="content">{{ .description }}</p>
+    </div>
+  </article>
+  {{ end }}
+</section>
+
+<section class="section">
+<p class="title">Experience</p>
+{{ range .Site.Data.experience }}
+<article class="media">
+  <div class="media-left">
+    <figure class="image is-48x48">
+      <img class="is-rounded" src="{{ .image }}">
+    </figure>
+  </div>
+  <div class="media-content">
+    <strong>{{ .designation }}</strong><br>
+    <p>{{ .name }} {{ .location }}</p>
+    <span class="tag is-light">{{ .time }}</span><br>
+    <p class="content">
+    <ol>
+      {{ range .description }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ol>
+    </p>
+</div>
+</article>
+{{ end }} 
+</section>
+
+<section class="section">
+  <p class="title">Skills</p>
+  <span class="tag is-primary is-medium">Python</span> <span class="tag is-primary is-medium">C#</span> <span class="tag is-primary is-medium">MS SQL</span> <span class="tag is-primary is-medium">Linq</span> <span class="tag is-primary is-medium">Android</span>
+</section>
 
 {{ end }}

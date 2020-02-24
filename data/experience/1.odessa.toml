@@ -1,0 +1,10 @@
+designation = "Software Engineer"
+name = "Odessa Solutions Pvt. Ltd."
+location = "Bangalore"
+time = "May 2019 - Present"
+image = "https://bulma.io/images/placeholders/128x128.png"
+description = [
+    "Worked as Trainee Software Engineer from December 2018 – May 2019."
+    ,"Using C# and MS SQL developed modules and fixed bugs that are critical to the client's leasing requirements."
+    ,"Improved performance of existing modules and automated the process by using Tasks/Jobs."
+    ]
