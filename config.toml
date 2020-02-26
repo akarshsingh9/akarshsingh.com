@@ -21,14 +21,9 @@ tag = "tags"
   weight = 2.0
 
   [[menu.nav]]
-  name = "About"
-  url = "/about/"
-  weight = 3.0
-
-  [[menu.nav]]
   name = "RSS"
   url = "/index.xml"
-  weight = 4.0
+  weight = 3.0
 
 
 # default parameters
