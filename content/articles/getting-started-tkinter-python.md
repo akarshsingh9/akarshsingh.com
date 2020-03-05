@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Tkinter in Python"
 date: 2020-03-05T00:19:34+05:30
-draft: true
+draft: false
 tags: ["cip-archive","python","tkinter"]
 image: "/images/articles/gui.png"
 description: "Learn how to make GUI using Tkinter in Python."

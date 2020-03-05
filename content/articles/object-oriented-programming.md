@@ -1,7 +1,7 @@
 ---
 title: "Object Oriented Programming in Python"
 date: 2020-03-04T23:18:34+05:30
-draft: true
+draft: false
 tags: ["cip-archive","programming"]
 image: "/images/articles/python.png"
 description: "This post explains basic OOPS concepts."
