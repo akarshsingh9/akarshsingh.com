@@ -1,0 +1,10 @@
+<article>
+    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+    <div><img class="is-rounded" src="{{ with .Params.image }}{{ . }}{{ end }}">
+    </div>
+    
+    <div>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    <time datetime="{{ $dateTime }}">{{ .PublishDate.Format "Jan 2, 2006" }}</time>
+    </div>     
+</article>

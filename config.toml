@@ -1,9 +1,6 @@
-# default configuration
-baseURL = "http://akarshsingh.com/"
+baseURL = "https://akarshsingh.com/"
 languageCode = "en-us"
 title = "Akarsh Singh"
-enableRobotsTXT = true
-canonifyURLs = true
 
 [taxonomies]
 tag = "tags"
@@ -11,13 +8,13 @@ tag = "tags"
 # menu
 [menu]
   [[menu.nav]]
-  name = "Blog"
-  url = "/post/"
+  name = "Articles"
+  url = "/articles/"
   weight = 1.0
 
   [[menu.nav]]
   name = "Projects"
-  url = "/project/"
+  url = "/projects/"
   weight = 2.0
 
   [[menu.nav]]
@@ -25,15 +22,6 @@ tag = "tags"
   url = "/index.xml"
   weight = 3.0
 
-
-# default parameters
-[params]
-author = "Akarsh Singh"
-og_image = ""
-sitename = "Akarsh Singh"
-showActiveNav = true
-dateFormat = "Jan 2, 2006"
-footerText = "Follow me on: "
 
 # social site
 [[params.social]]

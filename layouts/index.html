@@ -1,95 +1,62 @@
 {{ define "main" }}
-
-<div class ="tile">
-
-  <div class="tile is-parent is-6">  
-    <article class="tile is-child notification">
-      
-      <figure class="image is-128x128 has-image-centered">
-        <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-      </figure>
-      <p class="subtitle has-text-centered">Hi, I'm Akarsh</p>
-      <span class = "tag is-link">Software Developer</span> <span class = "tag is-link">Music Junkie</span> <span class = "tag is-link">Blog-writer</span> <span class="tag is-link">Minimalist</span> <span class="tag is-link">Turns coffee to code</span> <span class="tag is-link">Learner</span> 
-    
-    </article>  
-  </div>
-
-  <div class="tile is-parent">
-    <article class="tile is-child ">      
-      <section class="section">
-        <p class="subtitle has-text-centered">Connect with me</p>
-        <p class="content">I write tutorials on Python, Machine Learning and coding problems. You can keep up with which new project I'm working on and what I tweet by following me on:</p>
-      </section>
-    </article>  
-  </div>
+<div>
+    <figure></figure>
+    <h3>Hi, I'm Akarsh Singh</h3>
+    <p>I am a Software Engineer living in Bangalore, India. I enjoy developing applications, listening to music and learning new things. I aspire to develop a set of niche skills that will help me in the future. I have worked as a freelancer on a few android projects for Thailand based clients.</p> 
+    <p>I started this website as a place to document everything I learn, mostly as a way to keep notes for my future self. Hopefully, these notes can be of value to other fellow developers as well. This website is free of ads, newsletter pop-ups, affiliate links, and sponsored posts. A clutter-free website to enjoy quality content.</p>
 </div>
 
-{{ $pages := where site.RegularPages "Type" "in" "post" }}
-<section class="section">
-  <p class="title">Latest blog posts</p>
+{{ $pages := where site.RegularPages "Type" "in" "articles" }}
+<section>
+  <h1>Latest blog posts</h1>
   {{ range first 5 $pages }}
-    <article class="media">
-      <div class="media-left">
-        <figure class="image is-48x48">
-          <img class="is-rounded" src="{{ with .Params.image }}{{ . }}{{ end }}">
-        </figure>
+    <article>
+      <div>
+        <figure><img class="is-rounded" src="{{ with .Params.image }}{{ . }}{{ end }}"></figure>
       </div>
-      <div class="media-content">
-      <p class="title is-5"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
-      <p class = "subtitle is-6">{{ partial "date-and-tags.html" . }}</p>
-    </div>
+      <div>
+      <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+      </div>
     </article>
   {{ end }}
 </section>
 
-<section class="section">
-<p class = "title">GitHub Contribution</p>
-<figure class="image">
-  <img src="http://ghchart.rshah.org/akarshsingh9" alt="Github Contribution Graph" />
-</figure>
-</section>
-
-<section class="section">
-  <p class="title">Projects</p>
+<section>
+  <h1 class="title">Projects</h1>
   {{ range .Site.Data.top5proj }}
-  <article class="media">
-    <div class="media-content">
-      <strong><a href="{{ .link }}">{{ .name }}</a></strong><br>
-      <span class="tag is-light">{{ .type }}</span><br>
+  <article>
+    <div>
+      <a href="{{ .link }}">{{ .name }}</a><br>
+      <span class="tag is-light">{{ .type }}</span>
       <p class="content">{{ .description }}</p>
     </div>
   </article>
   {{ end }}
 </section>
 
-<section class="section">
-<p class="title">Experience</p>
+<section>
+<h1 class="title">Experience</h1>
 {{ range .Site.Data.experience }}
-<article class="media">
-  <div class="media-left">
-    <figure class="image is-48x48">
-      <img class="is-rounded" src="{{ .image }}">
+<article>
+  <div>
+    <figure>
+      <img class="is-rounded" src="{{ .image }}" style="max-height: 100px; max-width: 100px;">
     </figure>
   </div>
-  <div class="media-content">
+  <div>
     <strong>{{ .designation }}</strong><br>
     <p>{{ .name }} {{ .location }}</p>
     <span class="tag is-light">{{ .time }}</span><br>
-    <p class="content">
-    <ol>
+    <p>
+    <ul>
       {{ range .description }}
         <li>{{ . }}</li>
       {{ end }}
-    </ol>
+    </ul>
     </p>
 </div>
 </article>
 {{ end }} 
-</section>
-
-<section class="section">
-  <p class="title">Skills</p>
-  <span class="tag is-primary is-medium">Python</span> <span class="tag is-primary is-medium">C#</span> <span class="tag is-primary is-medium">MS SQL</span> <span class="tag is-primary is-medium">Linq</span> <span class="tag is-primary is-medium">Android</span>
 </section>
 
 {{ end }}
