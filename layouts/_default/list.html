@@ -1,6 +1,0 @@
-{{ define "main" }}   
-    <p>Home / {{ .Title }}</p>
-    {{ range .Pages.ByPublishDate.Reverse }}
-        {{ partial "blogList.html" . }}
-    {{ end }}
-{{ end }}

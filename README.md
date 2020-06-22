@@ -1,2 +1,0 @@
-# akarshsingh.com
-Personal Website
