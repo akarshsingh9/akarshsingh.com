@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Akarsh Singh",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "description": "Personal website of Akarsh Singh. Writing blogs on what i learn.",
+    "siteUrl": "https://akarshsingh.netlify.app",
+    "image": "/assets/akarsh.jpg",
+    "twitterUsername": "@akarsh_singh9"
   },
-  "ga": "UA-XXXXXXXXX-X"
+  "ga": "UA-170473594-1"
 }
