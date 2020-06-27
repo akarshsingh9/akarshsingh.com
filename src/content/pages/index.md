@@ -3,9 +3,9 @@ template: index-page
 slug: /
 title: Akarsh Singh
 tagline: Software Engineer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+featuredImage: /assets/akarsh.jpg
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+I like writing about what I learn. These blogs are not meant to be tutorials but my experience while working on some project or task.
