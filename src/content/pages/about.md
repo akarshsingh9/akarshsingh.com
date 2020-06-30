@@ -1,50 +1,41 @@
 ---
 template: about-page
 slug: /about
-title: About Foundation
+title: About
 ---
-Thank you! Now say "nuclear wessels"! No! Don't jump! A sexy mistake. Anyone who laughs is a communist!
 
-A true inspiration for the children. And when we woke up, we had these bodies. Moving along… Do a flip! Michelle, I don't regret this, but I bth rue and lament it.
+## Why set up this website?
 
-![Toys](/assets/vanessa-bucceri-gdirwiyama8-unsplash.jpg "Toys")
+I like learning in public, I have set up this website to write blogs about new skills that I have acquired or share my experience while working on some new projects. I like to maintain an online presence and have an uncluttered space on this internet to showcase my past projects and activities. 
 
-Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. Well, then good news! It's a suppository. Then we'll go with that data file! **I've been there.** *My folks were always on me to groom myself and wear underpants.* What am I, the pope?
+## How I have set up this website?
 
-Daddy Bender, we're hungry. We can't compete with Mom! Her company is big and evil! Ours is small and neutral! We're rescuing ya. We'll go deliver this crate like professionals, and then we'll go home.
+I am using the Foundation starter template in Gatsby JS and the site is deployed using Netlify. I use VS Code as my default text editor for writings blogs and code for this website. 
 
-I didn't ask for a completely reasonable excuse! I asked you to get busy! I never loved you. OK, this has gotta stop. I'm going to remind Fry of his humanity the way only a woman can. With a warning label this big, you know they gotta be fun!
+The purpose behind choosing this template is to get started quickly with my website and learn how to create themes in Gatsby JS by modifying this template.
 
-1. And from now on you're all named Bender Jr.
-2. Ah, computer dating. It's like pimping, but you rarely have to use the phrase "upside your head."
-3. You wouldn't. Ask anyway!
+## The Process
 
-Bender, quit destroying the universe! No! The cat shelter's on to me. Enough about your promiscuous mother, Hermes! We have bigger problems. Fatal. I guess if you want children beaten, you have to do it yourself.
+After trying to build websites on different platforms like Wordpress, Hugo, Jekyll, and GatsbyJS, I finally decided to stick with GatsbyJS. When I was an undergrad student, I had built and maintained websites using WordPress. I get the appeal of using WordPress but the amount of time and money I had to invest in maintaining my college project [Code In Python](https://web.archive.org/web/20191205134205/http://codeinpython.com/) was not worth it. I was spending a lot of money on domain name renewal and server costs. I wanted a free alternative at least from the hosting side.
 
-I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money. You mean while I'm sleeping in it? I don't want to be rescued.
+Static site generators are exactly what I was looking for. I compared a lot of options available, Hugo claimed to be the fastest SSG option. I spent the next four to six months learning and building my personal portfolio website on Hugo. Building a portfolio site in Hugo is easy but deployment was a pain. For some reason, few blogs were missing from my production site even though I had committed all changes in my GitHub repository. 
 
-* You know the worst thing about being a slave? They make you work, but they don't pay you or let you go.
-* And when we woke up, we had these bodies.
-* Spare me your space age technobabble, Attila the Hun!
+Then I thought I should try Jekyll. Installing Ruby and Ruby gem in Windows 10 environment is not easy and the experience of using Jekyll is not better than Hugo. 
 
-Hi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute. But, like most politicians, he promised more than he could deliver. I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas.
+Finally, I decided to switch to Gatsby JS. Proper documentation, coding style, gatsby plugins, templates, and the deployment process is easier to understand and implement when compared to other options I tried. 
 
-You mean while I'm sleeping in it? I suppose I could part with 'one' and still be feared… Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. Negative, bossy meat creature!
+## Music
 
-Oh God, what have I done? I don't 'need' to drink. I can quit anytime I want! Bender! Ship! Stop bickering or I'm going to come back there and change your opinions manually! Wow! A superpowers drug you can just rub onto your skin? You'd think it would be something you'd have to freebase.
+When I am working or studying in a nosier environment, I like to listen to music. It puts me in a zone where I can concentrate better. If you want to know what kind of music I am into then check this Spotify Stat for my profile
 
-Ask her how her day was. In our darkest hour, we can stand erect, with proud upthrust bosoms. Why did you bring us here? I don't know what you did, Fry, but once again, you screwed up! Now all the planets are gonna start cracking wise about our mamas.
+<img src="/assets/about/spotify-top-5.jpg" alt="Spotify Top 5 Artists" style="width:300px;"/>
 
-Good news, everyone! I've taught the toaster to feel love! This opera's as lousy as it is brilliant! Your lyrics lack subtlety. You can't just have your characters announce how they feel. That makes me feel angry!
+<img src="/assets/about/spotify-genre-fluid.jpg" alt="spotify genre fluid" style="width:290px;"/>
 
-Hello Morbo, how's the family? You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Oh Leela! You're the only person I could turn to; you're the only person who ever loved me.
+## Career
 
-My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. Incidentally, you have a dime up your nose.
+LinkedIn Profile: [https://www.linkedin.com/in/akarshsingh](https://www.linkedin.com/in/akarshsingh)
 
-You are the last hope of the universe. You know the worst thing about being a slave? They make you work, but they don't pay you or let you go. I meant 'physically'. Look, perhaps you could let me work for a little food? I could clean the floors or paint a fence, or service you sexually?
+GitHub Profile: [https://github.com/akarshsingh9/](https://github.com/akarshsingh9/)
 
-Hey, guess what you're accessories to. I feel like I was mauled by Jesus. Why would a robot need to drink? What are their names? Fry! Quit doing the right thing, you jerk! Doomsday device? Ah, now the ball's in Farnsworth's court!
-
-I saw you with those two "ladies of the evening" at Elzars. Explain that. Shinier than yours, meatbag. That's the ONLY thing about being a slave. Um, is this the boring, peaceful kind of taking to the streets?
-
-Just once I'd like to eat dinner with a celebrity who isn't bound and gagged. Daddy Bender, we're hungry. Kids don't turn rotten just from watching TV. I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense.
+![](/assets/about/linkedIn-experience.png "LinkedIn Experience Page")
