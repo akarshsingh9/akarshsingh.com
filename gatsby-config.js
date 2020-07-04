@@ -79,13 +79,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Foundation`,
-        short_name: `Foundation`,
+        name: `Akarsh Singh`,
+        short_name: `Akarsh`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `static/assets/stackrole.png`,
+        icon: `static/assets/favicon/android-chrome-512x512.png`,
       },
     },
     'gatsby-plugin-offline',
