@@ -4,6 +4,22 @@ slug: /about
 title: About
 ---
 
+## Career
+
+LinkedIn Profile: [https://www.linkedin.com/in/akarshsingh](https://www.linkedin.com/in/akarshsingh)
+
+GitHub Profile: [https://github.com/akarshsingh9/](https://github.com/akarshsingh9/)
+
+![](/assets/about/linkedIn-experience.png "LinkedIn Experience Page")
+
+## Music
+
+When I am working or studying in a nosier environment, I like to listen to music. It puts me in a zone where I can concentrate better. If you want to know what kind of music I am into then check this Spotify Stat for my profile
+
+<img src="/assets/about/spotify-top-5.jpg" alt="Spotify Top 5 Artists" style="width:300px;"/>
+
+<img src="/assets/about/spotify-genre-fluid.jpg" alt="spotify genre fluid" style="width:290px;"/>
+
 ## Why set up this website?
 
 I like learning in public, I have set up this website to write blogs about new skills that I have acquired or share my experience while working on some new projects. I like to maintain an online presence and have an uncluttered space on this internet to showcase my past projects and activities. 
@@ -23,19 +39,3 @@ Static site generators are exactly what I was looking for. I compared a lot of o
 Then I thought I should try Jekyll. Installing Ruby and Ruby gem in Windows 10 environment is not easy and the experience of using Jekyll is not better than Hugo. 
 
 Finally, I decided to switch to Gatsby JS. Proper documentation, coding style, gatsby plugins, templates, and the deployment process is easier to understand and implement when compared to other options I tried. 
-
-## Music
-
-When I am working or studying in a nosier environment, I like to listen to music. It puts me in a zone where I can concentrate better. If you want to know what kind of music I am into then check this Spotify Stat for my profile
-
-<img src="/assets/about/spotify-top-5.jpg" alt="Spotify Top 5 Artists" style="width:300px;"/>
-
-<img src="/assets/about/spotify-genre-fluid.jpg" alt="spotify genre fluid" style="width:290px;"/>
-
-## Career
-
-LinkedIn Profile: [https://www.linkedin.com/in/akarshsingh](https://www.linkedin.com/in/akarshsingh)
-
-GitHub Profile: [https://github.com/akarshsingh9/](https://github.com/akarshsingh9/)
-
-![](/assets/about/linkedIn-experience.png "LinkedIn Experience Page")
