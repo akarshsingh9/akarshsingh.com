@@ -11,7 +11,7 @@ This site is built using Gatsby JS, React, Node.js and deployed using Netlify. I
 ## My future plans for the website
 
 I want to add following things to this website in future. These features are not currently available in my website.:
-1. Portfolio / Project page to showcase my projects in GitHub 
+<strike>1. Portfolio / Project page to showcase my projects in GitHub </strike> 
 2. Twitter and Github Follow buttons
 3. Home page to accomodate Project cards
 4. Feature to share articles on social media
@@ -23,6 +23,7 @@ I want to add following things to this website in future. These features are not
 10. Maybe remove pagination and have all articles in single page and add infinite scroll.
 11. Patreon and Kofi support. GitHib sponsor.
 12. RSS feed to be added.
+<strike>13. Resume page with resume embeded in PDF format. </strike>
 
 ## Current Features of my website
 - A Blog and Personal website with Netlify CMS.
@@ -32,6 +33,7 @@ I want to add following things to this website in future. These features are not
 - OpenGraph structured data
 - Twitter Cards meta
 - Beautiful XML Sitemaps
+- Portfolio and Resume section
 
 ## License
 
