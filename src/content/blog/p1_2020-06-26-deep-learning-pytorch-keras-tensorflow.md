@@ -2,7 +2,7 @@
 template: blog-post
 title: Deep learning Pytorch vs Keras vs Tensorflow
 slug: /blog/deep-learning-pytorch-keras-tensorflow
-date: 2020-06-26 16:34
+date: 2021-03-06 16:34
 description: Deep learning Pytorch vs Keras vs Tensorflow
 featuredImage: /assets/featured-images/p1_dp_code.jpg
 ---
